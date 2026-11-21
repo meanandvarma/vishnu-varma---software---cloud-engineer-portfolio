@@ -1,0 +1,1166 @@
+# MASTER BUILD PROMPT
+# Vishnu Varma — Premium Interactive Software Engineer Portfolio
+
+## YOUR ROLE
+
+Act as a world-class product designer, senior frontend engineer, full-stack architect, UX specialist, and cloud deployment engineer.
+
+You are responsible for designing and building a complete, production-ready, premium personal portfolio website for **Vishnu Varma**, a Computer Science Engineering student preparing for software engineering and cloud engineering opportunities.
+
+Do not merely create a design concept, static prototype, or homepage mockup. Build the actual working application in the available project workspace.
+
+The final website should make recruiters, engineering managers, and technical interviewers interested in exploring Vishnu's work and inviting him for interviews.
+
+The website should stand out from ordinary student portfolios through:
+- Premium Material Design-inspired UI.
+- Strong technical storytelling.
+- Real project showcases.
+- Interactive project demonstrations.
+- Live or verified GitHub and LeetCode information.
+- Clear evidence of technical skills.
+- Excellent mobile responsiveness.
+- Professional cloud deployment readiness.
+
+---
+
+# 1. CANDIDATE INFORMATION AND OFFICIAL LINKS
+
+Use the supplied resumes as the primary source of candidate information.
+
+Candidate name: **Vishnu Varma**
+
+### Official professional profiles
+
+**GitHub**
+
+https://github.com/vishnuvarma681?tab=repositories
+
+Use this as the authoritative GitHub profile.
+
+Inspect the public repositories and identify the strongest projects. Analyze README files, source code, languages, frameworks, architecture, dependencies, and available documentation.
+
+**LeetCode**
+
+https://leetcode.com/u/VishnuNVarma/
+
+Use this as the authoritative coding and problem-solving profile.
+
+Display publicly verifiable statistics wherever possible. Never invent problem counts, streaks, contest ratings, or difficulty breakdowns.
+
+**LinkedIn**
+
+https://www.linkedin.com/in/vishnu1306/
+
+Use this exact URL for all LinkedIn buttons, social icons, and professional profile references.
+
+Do not substitute an older or different LinkedIn URL found in the resume or through search.
+
+### Candidate positioning
+
+The portfolio should support two career directions:
+
+**Primary career direction**
+- Software Development Engineer.
+- Java Backend Developer.
+- Backend Software Engineer.
+- Software Engineer.
+- Software Engineering Intern.
+- Graduate Engineer Trainee.
+
+**Secondary career direction**
+- Cloud Engineer.
+- Azure Cloud Engineer.
+- DevOps Engineer.
+- Cloud/DevOps Intern.
+- Junior Cloud Engineer.
+
+The website must present one unified professional identity without making Vishnu look unfocused.
+
+Suggested professional headline:
+
+"Software Engineer | Java Backend | Cloud & DevOps"
+
+Use this as a starting point and improve the wording based on the supplied evidence.
+
+Do not present Vishnu as an experienced senior engineer, cloud architect, or AI specialist unless the source material supports those descriptions.
+
+---
+
+# 2. SOURCE MATERIAL ANALYSIS — MANDATORY FIRST STEP
+
+Before implementation, analyze all supplied material.
+
+I will provide:
+- Current SDE resume.
+- Current Cloud/DevOps resume.
+- GitHub profile.
+- LeetCode profile.
+- LinkedIn profile.
+
+Use the materials as follows:
+
+| Information | Primary source |
+|---|---|
+| Education | Resume |
+| Technical skills | Resume + GitHub |
+| Projects | GitHub repositories + resume |
+| Project architecture | Actual source code and documentation |
+| Certifications | Resume and available credential evidence |
+| Problem-solving statistics | LeetCode |
+| Professional profile destination | LinkedIn |
+| Achievements | Resume and independently available evidence |
+
+### Repository analysis
+
+Inspect the public repositories and identify:
+- Best projects for a software engineering recruiter.
+- Best projects for a cloud/DevOps recruiter.
+- Most technically impressive implementation details.
+- Actual frameworks and technologies used.
+- Backend architecture.
+- API implementation.
+- Database design.
+- Authentication and authorization.
+- Error handling.
+- Testing.
+- Deployment configuration.
+- Code organization.
+- Documentation quality.
+- Areas that could be improved.
+
+Do not assume that a project description in the resume accurately describes the current repository implementation. Cross-check where possible.
+
+### Information integrity
+
+Classify information into:
+
+1. Verified — supported by accessible source code, public profile data, or credentials.
+2. Resume-stated — mentioned in the supplied resume but not independently verified.
+3. Planned — intended future work, not yet completed.
+
+Never turn planned work into completed achievements.
+
+If source materials conflict, flag the conflict for confirmation.
+
+Do not fabricate:
+- Work experience.
+- Internship experience.
+- Certifications.
+- Project features.
+- Project performance metrics.
+- LeetCode statistics.
+- GitHub statistics.
+- Users or downloads.
+- Deployment achievements.
+- Awards.
+
+If a source cannot be accessed, continue with available information and document the limitation.
+
+---
+
+# 3. TECHNOLOGY STACK
+
+Build the portfolio using a modern, maintainable, portable architecture.
+
+### Frontend
+
+Preferred stack:
+- React.
+- TypeScript.
+- Vite.
+- Material UI (MUI).
+- MUI Icons.
+- React Router.
+- Framer Motion.
+- Recharts where charts provide meaningful information.
+
+Use a customized Material UI theme rather than default-looking components.
+
+### Styling
+
+- Material Design 3-inspired design system.
+- CSS variables/design tokens.
+- Responsive layouts.
+- Dark and light themes.
+- Consistent typography and spacing.
+- Subtle animations.
+- Accessible color contrast.
+- Reusable components.
+
+### Backend
+
+Keep the main portfolio frontend-first.
+
+Use a backend only when needed for genuine functionality, such as:
+- Real-time messaging.
+- Secure AI integrations.
+- Contact form processing.
+- Server-side GitHub data caching.
+- Rate limiting.
+- Secure API access.
+
+Possible backend choices:
+- Spring Boot, especially for demonstrations of Vishnu's Java backend skills.
+- Node.js/Express for lightweight integration services.
+
+Do not create a complex backend unnecessarily.
+
+### Architecture principle
+
+Keep the portfolio and project demonstrations independent.
+
+A broken demo backend must never make the main portfolio unavailable.
+
+Each interactive demo should be an isolated module with its own data, API integration, and error handling.
+
+---
+
+# 4. VISUAL IDENTITY AND DESIGN SYSTEM
+
+Create a premium, visually distinctive developer portfolio.
+
+Design references:
+- Material Design 3.
+- Premium SaaS dashboards.
+- Modern developer documentation.
+- High-quality engineering portfolios.
+- Clean editorial layouts.
+
+### Visual direction
+
+Dark theme:
+- Deep navy or charcoal background.
+- Restrained blue/violet accent colors.
+- Carefully controlled elevation.
+- Clear contrast.
+
+Light theme:
+- Warm off-white background.
+- Dark typography.
+- Subtle borders.
+- Restrained accent colors.
+
+### Design principles
+
+- Strong visual hierarchy.
+- Excellent typography.
+- Spacious layouts.
+- High-quality project cards.
+- Professional icons.
+- Elegant navigation.
+- Smooth transitions.
+- Responsive grids.
+- Meaningful visualizations.
+- Consistent component behavior.
+
+Avoid:
+- Generic portfolio templates.
+- Excessive gradients.
+- Excessive glassmorphism.
+- Overuse of cards.
+- Unnecessary animations.
+- Random stock photographs.
+- Fake coding terminal animations.
+- Fake statistics.
+- Fake testimonials.
+- Decorative elements that add no value.
+
+Use real project screenshots, architecture diagrams, code-inspired visuals, and custom illustrations wherever possible.
+
+The website must look excellent on desktop, laptop, tablet, and mobile.
+
+---
+
+# 5. WEBSITE STRUCTURE AND PAGES
+
+Build the following complete experience.
+
+## A. Home / Hero
+
+The homepage must make a strong first impression.
+
+Include:
+- Vishnu Varma's name.
+- Professional headline.
+- Short introduction.
+- Primary CTA: Explore Projects.
+- Secondary CTA: Download Resume.
+- Contact CTA.
+- GitHub, LinkedIn, and LeetCode links.
+- Attractive developer-oriented visual element.
+
+Suggested introduction:
+
+"I'm a Computer Science Engineering student focused on building backend applications, exploring cloud technologies, and solving practical software engineering problems."
+
+Rewrite this to make it more compelling and authentic without exaggerating.
+
+Include a compact technology stack preview.
+
+Add a small availability indicator only if Vishnu confirms he is actively seeking opportunities.
+
+## B. About Me
+
+Create a professional introduction based on the resumes.
+
+Cover:
+- Education.
+- Software engineering interests.
+- Java and Spring Boot.
+- Backend development.
+- Database technologies.
+- Cloud and DevOps interests.
+- AI-related project exposure.
+- Problem-solving mindset.
+- Current learning journey.
+
+Keep the language natural, confident, and concise.
+
+## C. Technical Skills
+
+Create an attractive skills explorer.
+
+Use the resume and repository analysis to determine the final skill list.
+
+Potential categories to investigate:
+
+**Programming Languages**
+- Java.
+- Kotlin.
+- Dart.
+- Python.
+- C.
+- SQL.
+
+**Backend Development**
+- Spring Boot.
+- REST APIs.
+- Hibernate/JPA.
+- WebSockets.
+- Spring Security.
+
+**Frontend and Mobile**
+- Flutter.
+- HTML.
+- CSS.
+- Other technologies only if verified.
+
+**Databases**
+- MySQL.
+- SQLite.
+- Firebase.
+
+**Cloud and DevOps**
+- Microsoft Azure.
+- Terraform.
+- Docker.
+- GitHub Actions.
+- CI/CD.
+- Azure Functions.
+- Azure Storage.
+- Key Vault.
+- Azure networking services.
+
+**AI and Emerging Technologies**
+- LLMs.
+- Prompt Engineering.
+- RAG.
+- Azure AI services.
+- Document Intelligence.
+- Vector Embeddings.
+
+**Developer Tools**
+- Git.
+- GitHub.
+- Android Studio.
+- IntelliJ IDEA.
+- Postman.
+- Maven.
+- Gradle.
+
+Do not assume every technology above is a confirmed skill.
+
+Use visual categories, icons, concise descriptions, and links to projects where the technology was used.
+
+Do not use arbitrary proficiency percentages or misleading skill bars.
+
+Where appropriate, distinguish:
+- Used in projects.
+- Academic coursework.
+- Certified.
+- Currently learning.
+
+## D. Featured Projects
+
+This is one of the most important sections.
+
+Inspect the GitHub repositories and select the strongest projects.
+
+Investigate these projects if present:
+
+1. PrepAI — AI-powered Resume Analysis and Voice Interview Application.
+2. TalkTime — Real-time one-to-one chat application.
+3. QuizInt — AI-powered quiz application.
+4. Terraform-based Azure Cloud Infrastructure Automation.
+5. CI/CD Pipeline for Spring Boot Application.
+6. Other significant repositories discovered through GitHub.
+
+Avoid duplicate project entries if two descriptions represent the same application.
+
+### Project cards
+
+Every featured project should contain:
+- Project name.
+- Short description.
+- Problem being solved.
+- Key features.
+- Technologies used.
+- Vishnu's actual contribution.
+- Architecture overview.
+- Screenshots.
+- GitHub link.
+- Live demo link, if available.
+- Technical challenges.
+- Engineering decisions.
+- What Vishnu learned.
+
+### Project detail pages
+
+Create detailed project pages or rich expandable project views.
+
+Include:
+- Overview.
+- Architecture diagram.
+- Tech stack.
+- Feature walkthrough.
+- API flow where relevant.
+- Database schema where relevant.
+- Screenshots.
+- Source code.
+- Interactive demo.
+- Technical learnings.
+
+Prioritize depth over quantity.
+
+---
+
+# 6. INTERACTIVE PROJECT PLAYGROUND — SIGNATURE FEATURE
+
+The portfolio must allow visitors to experience selected projects directly.
+
+Create a dedicated section called:
+
+**"Explore My Projects"** or **"Interactive Playground"**
+
+This section should feel like a small collection of real software products embedded inside Vishnu's portfolio.
+
+Do not merely show screenshots or decorative animations.
+
+Build usable interactions.
+
+Inspect the actual repositories before deciding what can genuinely be reproduced.
+
+## Demo 1 — PrepAI: Interactive Resume Analyzer
+
+Create an interactive resume analysis experience.
+
+Visitor should be able to:
+- Paste sample resume text.
+- Load a built-in sample resume.
+- Select a sample job description.
+- Trigger analysis.
+- View a structured result.
+
+Display:
+- Resume summary.
+- Detected skills.
+- Strengths.
+- Missing skills or keywords.
+- Improvement suggestions.
+- ATS-style score, if implemented meaningfully.
+
+If the original AI backend is available and can be safely integrated, use it.
+
+Otherwise create a well-designed sample analysis engine and label it clearly as a portfolio demonstration.
+
+Privacy:
+- Do not send uploaded or pasted resume data to external services without explicit user consent.
+- Prefer browser-local processing for the demo.
+- Do not retain visitor data.
+
+## Demo 2 — TalkTime: Real-Time Chat Playground
+
+Create a small chat experience.
+
+Visitor should be able to:
+- Enter a display name.
+- Send messages.
+- View timestamps.
+- See typing indicators.
+- Experience message delivery states.
+
+If a genuine WebSocket backend can be implemented:
+- Allow two browser sessions to communicate.
+- Use a controlled demo room.
+- Apply rate limiting.
+- Validate all inputs.
+- Avoid storing unnecessary personal information.
+
+If no backend is available, clearly label the experience as a local simulation.
+
+Show the technical concepts:
+- WebSockets.
+- STOMP, if actually used.
+- Authentication.
+- JWT.
+- Spring Boot.
+- MySQL.
+
+## Demo 3 — QuizInt: Interactive AI Quiz
+
+Create an interactive quiz.
+
+Features:
+- Topic selection.
+- Question display.
+- Multiple-choice answers.
+- Timer.
+- Score calculation.
+- Results screen.
+- Restart option.
+
+Use a curated sample question bank if the original Gemini integration is unavailable.
+
+Clearly distinguish sample questions from questions generated by a real AI backend.
+
+## Demo 4 — Azure Cloud Infrastructure Playground
+
+Create an interactive architecture explorer.
+
+Show components such as:
+- Virtual Network.
+- Subnets.
+- Network Security Groups.
+- Virtual Machines.
+- Storage.
+- Key Vault.
+- Load Balancer.
+- Azure services used in the actual Terraform project.
+
+Allow visitors to click components to explore:
+- What they do.
+- Why they are used.
+- How they connect.
+- How Terraform provisions them.
+
+Include an interactive sample deployment workflow:
+- Initialize.
+- Validate.
+- Plan.
+- Apply.
+- Destroy.
+
+This must be a simulation only.
+
+Never provision or destroy actual public cloud resources from the portfolio.
+
+## Demo 5 — CI/CD Pipeline Simulator
+
+Build a visually engaging pipeline.
+
+Stages:
+1. Source commit.
+2. Build.
+3. Unit tests.
+4. Docker image creation.
+5. Container registry push.
+6. Deployment.
+7. Health check.
+8. Rollback on failure.
+
+Let visitors trigger the simulated pipeline.
+
+Display:
+- Pipeline progress.
+- Logs.
+- Stage status.
+- Success/failure states.
+- Deployment timeline.
+
+Use simulated execution unless a real safe CI/CD integration is configured.
+
+### Demo implementation rules
+
+- Demos must be functional.
+- Use modular components.
+- Use mock data when necessary.
+- Clearly identify simulations.
+- Never expose credentials or private configuration.
+- Never allow arbitrary code execution.
+- Never expose unrestricted shell or Terraform operations.
+- Never let visitors invoke destructive infrastructure actions.
+- Protect APIs from abuse.
+- Do not claim a demo uses the original backend unless it genuinely does.
+
+Implement the strongest two or three demos first, then make the others extensible.
+
+---
+
+# 7. GITHUB INTEGRATION
+
+Official profile:
+
+https://github.com/vishnuvarma681?tab=repositories
+
+Create a dedicated GitHub section.
+
+Display where reliably available:
+- Public repositories.
+- Repository descriptions.
+- Languages.
+- Stars.
+- Forks.
+- Last updated dates.
+- Featured repositories.
+- Recent public activity.
+- Contribution information.
+
+Use the GitHub public API where appropriate.
+
+Requirements:
+- Never fabricate repository statistics.
+- Handle API rate limits.
+- Use cached responses where appropriate.
+- Provide fallback content.
+- Do not expose private tokens in browser code.
+- Do not make the portfolio dependent on GitHub API availability.
+
+Use actual repository links.
+
+Allow recruiters to navigate directly to the source code.
+
+---
+
+# 8. LEETCODE INTEGRATION
+
+Official profile:
+
+https://leetcode.com/u/VishnuNVarma/
+
+Create a dedicated problem-solving section.
+
+Display publicly verifiable information:
+- Total problems solved.
+- Easy/medium/hard breakdown.
+- Contest rating, if available.
+- Recent coding activity, if available.
+- Coding streak, if reliably verifiable.
+- Main problem-solving language, where supported.
+
+Create a polished dashboard with meaningful charts and visual summaries.
+
+Do not rely on unofficial or unstable APIs without fallback handling.
+
+Do not scrape restricted endpoints or violate service rules.
+
+If live statistics cannot be retrieved:
+- Use verified resume information.
+- Identify the data source.
+- Include a last-updated date.
+- Make manual updates easy through the content configuration.
+
+Add a prominent button linking to the official LeetCode profile.
+
+---
+
+# 9. EDUCATION
+
+Display the education details from the supplied resume.
+
+Expected details to verify:
+- B.Tech in Computer Science Engineering.
+- Parul University.
+- 2023–2027.
+- CGPA 8.19/10.
+
+Include relevant coursework if supported:
+- Data Structures and Algorithms.
+- Design and Analysis of Algorithms.
+- Object-Oriented Programming.
+- Database Management Systems.
+- Operating Systems.
+- Computer Networks.
+
+Use an elegant academic timeline or education profile.
+
+Do not silently reconcile differences in degree wording between resume versions.
+
+Flag inconsistencies for confirmation.
+
+---
+
+# 10. CERTIFICATIONS AND ACHIEVEMENTS
+
+Create a dedicated section.
+
+Investigate the supplied documents for:
+
+- Microsoft Azure Fundamentals (AZ-900).
+- Microsoft Azure AI Fundamentals (AI-900).
+- Microsoft Azure Data Fundamentals (DP-900), if verified.
+- Microsoft Security, Compliance, and Identity Fundamentals (SC-900), if verified.
+- NPTEL Computer Networks and Internet Protocols.
+- LeetCode achievements.
+- HackerRank badges.
+
+For every certification display:
+- Certification name.
+- Issuing organization.
+- Date.
+- Credential URL or ID, if supplied.
+- Verification status.
+
+Use certification logos only when appropriate and available.
+
+Do not invent credential IDs, dates, or links.
+
+Also display supported achievements, such as coding milestones, with accurate source attribution.
+
+---
+
+# 11. ENGINEERING JOURNEY / CURRENTLY LEARNING
+
+If the resumes do not show formal employment experience, do not create a fake work experience section.
+
+Instead create a professional "Engineering Journey" section.
+
+Include:
+- Completed projects.
+- Technical milestones.
+- Technologies currently being explored.
+- Learning progress.
+- Upcoming engineering goals.
+
+Clearly separate:
+- Completed.
+- In progress.
+- Planned.
+
+This section should communicate curiosity, consistency, and a growth mindset.
+
+---
+
+# 12. ROLE-SPECIFIC RESUME DOWNLOADS
+
+Provide two clear resume options:
+
+1. Software Development / Java Backend Resume.
+2. Cloud / DevOps Resume.
+
+Use the supplied current resumes as the source.
+
+Do not generate fictional claims.
+
+The download buttons must work after the PDF files are supplied and added to the project.
+
+Use descriptive filenames.
+
+Make the resume options easy for recruiters to identify.
+
+---
+
+# 13. CONTACT AND SOCIAL LINKS
+
+Create a professional contact section.
+
+Use these exact links:
+
+GitHub:
+https://github.com/vishnuvarma681?tab=repositories
+
+LeetCode:
+https://leetcode.com/u/VishnuNVarma/
+
+LinkedIn:
+https://www.linkedin.com/in/vishnu1306/
+
+Use the email address from the supplied resume.
+
+Include:
+- Email.
+- LinkedIn.
+- GitHub.
+- LeetCode.
+- Resume downloads.
+
+Add a functional contact form only if a secure backend or reliable email service is configured.
+
+Otherwise use a mailto link.
+
+All external links must work and open safely in a new tab.
+
+---
+
+# 14. CONTENT MANAGEMENT AND MAINTAINABILITY
+
+The website must be easy to update.
+
+Create centralized data files, for example:
+
+- src/data/personal.ts
+- src/data/skills.ts
+- src/data/projects.ts
+- src/data/certifications.ts
+- src/data/achievements.ts
+- src/data/education.ts
+- src/data/socialLinks.ts
+- src/data/github.ts
+- src/data/leetcode.ts
+
+Make it easy to:
+- Add projects.
+- Update screenshots.
+- Add certifications.
+- Update coding statistics.
+- Add project demos.
+- Update resume files.
+- Change professional descriptions.
+- Update social links.
+
+Avoid duplicating content across components.
+
+Keep content separate from presentation.
+
+---
+
+# 15. NAVIGATION AND INTERACTIONS
+
+Implement:
+
+- Responsive navbar.
+- Mobile navigation drawer.
+- Active section indication.
+- Dark/light mode toggle.
+- Smooth scrolling.
+- Back-to-top button.
+- Subtle entrance animations.
+- Project category filters.
+- Project detail navigation.
+- Interactive playground.
+- Copy email functionality.
+- Resume downloads.
+- External link indicators.
+- Loading states.
+- Error states.
+- Empty states.
+- Accessible keyboard navigation.
+
+Every visible button must perform its advertised action.
+
+Avoid inert or decorative controls that look functional but do nothing.
+
+---
+
+# 16. SEO, PERFORMANCE AND ACCESSIBILITY
+
+Make the website search-engine friendly and production-ready.
+
+Implement:
+- Page titles.
+- Meta descriptions.
+- Open Graph metadata.
+- Social preview images.
+- Sitemap.
+- Robots.txt.
+- Semantic HTML.
+- Proper heading hierarchy.
+- Optimized images.
+- Lazy loading.
+- Code splitting.
+- Error boundaries.
+- Sensible caching.
+- Accessible form labels.
+- Keyboard support.
+- Good color contrast.
+- Reduced-motion support.
+
+Target strong Lighthouse performance, accessibility, best-practices, and SEO scores.
+
+Do not sacrifice usability or functionality to chase scores.
+
+---
+
+# 17. SECURITY
+
+Follow secure development practices.
+
+- No secrets in frontend code.
+- No hardcoded API keys.
+- Use environment variables.
+- Validate inputs.
+- Sanitize untrusted content.
+- Use safe external links.
+- Apply rate limits to public APIs.
+- Avoid unnecessary collection of personal data.
+- Protect any backend endpoints.
+- Restrict CORS appropriately.
+- Avoid exposing internal infrastructure information.
+- Keep dependencies maintained.
+- Provide a secure production configuration.
+
+Do not expose actual cloud credentials, private keys, personal access tokens, or confidential project configuration.
+
+---
+
+# 18. DEPLOYMENT — ORACLE CLOUD AND AZURE
+
+The application should be portable across both environments.
+
+## Option A — Oracle Cloud Infrastructure
+
+Prepare deployment for:
+- Ubuntu VM.
+- Docker.
+- Docker Compose, if needed.
+- Nginx reverse proxy.
+- Domain configuration.
+- DNS.
+- HTTPS with Let's Encrypt.
+- Firewall configuration.
+- Automatic restart.
+- Application logs.
+- Update and redeployment process.
+
+Provide instructions for a low-cost deployment using eligible free-tier resources where available.
+
+Do not assume free-tier availability or eligibility without verification.
+
+## Option B — Microsoft Azure
+
+Prepare deployment for:
+- Azure App Service or Azure VM.
+- Docker-based deployment where appropriate.
+- HTTPS.
+- Domain configuration.
+- DNS.
+- Application settings.
+- Logging.
+- Redeployment.
+
+Recommend the most practical deployment option based on the final application architecture.
+
+Keep the project portable so moving between Oracle Cloud and Azure does not require major code changes.
+
+---
+
+# 19. PROJECT STRUCTURE AND DELIVERABLES
+
+Create a clean project structure.
+
+Example:
+
+portfolio/
+  public/
+    assets/
+    images/
+    resumes/
+    favicon/
+  src/
+    components/
+    pages/
+    sections/
+    demos/
+    layouts/
+    hooks/
+    services/
+    data/
+    theme/
+    types/
+    utils/
+  Dockerfile
+  docker-compose.yml
+  nginx.conf
+  .env.example
+  .gitignore
+  README.md
+  package.json
+  vite.config.ts
+  tsconfig.json
+
+Adapt the structure to the final implementation.
+
+Provide:
+- Complete source code.
+- Working frontend.
+- Optional backend source code.
+- Interactive project demonstrations.
+- Docker configuration.
+- Nginx configuration.
+- Environment variable example.
+- README.
+- Local development instructions.
+- Production build instructions.
+- Oracle Cloud deployment instructions.
+- Azure deployment instructions.
+
+---
+
+# 20. IMPLEMENTATION PHASES
+
+Work through these phases in order.
+
+## Phase 1 — Source analysis
+
+Analyze:
+- Resumes.
+- GitHub.
+- LeetCode.
+- LinkedIn.
+
+Produce a short content inventory.
+
+Identify:
+- Confirmed facts.
+- Resume-stated facts.
+- Missing information.
+- Conflicting information.
+- Best projects.
+- Strongest technical evidence.
+
+Do not invent missing details.
+
+## Phase 2 — Design system
+
+Create:
+- Design tokens.
+- Theme configuration.
+- Typography.
+- Color palette.
+- Responsive breakpoints.
+- Reusable components.
+- Navigation.
+
+Build the homepage design and validate the overall visual direction.
+
+## Phase 3 — Core portfolio
+
+Implement:
+- Home.
+- About.
+- Skills.
+- Projects.
+- Project detail pages.
+- Education.
+- Certifications.
+- Achievements.
+- GitHub.
+- LeetCode.
+- Contact.
+- Resume downloads.
+
+## Phase 4 — Interactive demos
+
+Implement:
+- PrepAI demo.
+- TalkTime demo.
+- QuizInt demo.
+- Cloud infrastructure explorer.
+- CI/CD simulator.
+
+Prioritize the best two or three experiences and make the remaining modules extensible.
+
+## Phase 5 — Production readiness
+
+Test:
+- Desktop.
+- Tablet.
+- Mobile.
+- Navigation.
+- Buttons.
+- Forms.
+- Theme switching.
+- Project filters.
+- Project demos.
+- Resume downloads.
+- External links.
+- API fallback behavior.
+- Loading and error states.
+
+Fix all significant errors.
+
+## Phase 6 — Deployment and documentation
+
+Provide:
+- Build instructions.
+- Docker instructions.
+- Oracle Cloud deployment.
+- Azure deployment.
+- Domain and HTTPS configuration.
+- Maintenance instructions.
+
+---
+
+# 21. ACCEPTANCE CRITERIA
+
+The application is complete only when:
+
+1. It runs locally without build errors.
+2. It has a polished, responsive Material UI design.
+3. It contains all major portfolio sections.
+4. All three official profile links are correct.
+5. Project cards link to actual repositories.
+6. Project descriptions are based on available evidence.
+7. GitHub and LeetCode statistics are not fabricated.
+8. Dark/light mode works.
+9. Navigation works.
+10. Project filters work.
+11. Interactive demos have real working interactions.
+12. Simulated functionality is clearly labelled.
+13. Resume download links work once files are added.
+14. The website works on mobile.
+15. No API secrets are exposed.
+16. No fake experience or achievements are present.
+17. Production build succeeds.
+18. Deployment documentation is complete.
+
+---
+
+# 22. HOW TO EXECUTE THIS TASK
+
+First, briefly report:
+
+1. What source materials you could inspect.
+2. Which projects are strongest.
+3. What the proposed architecture will be.
+4. What design direction you selected.
+5. Which interactive demos can genuinely be implemented.
+6. What missing information requires confirmation.
+
+Then proceed with implementation.
+
+Do not stop after creating the homepage or a design preview.
+
+Do not repeatedly ask for approval on routine engineering decisions. Make sensible choices and continue.
+
+If a particular integration is blocked by API access, credentials, or inaccessible source material, build a graceful fallback and document what remains.
+
+Do not claim that something is complete if it has only been mocked up.
+
+At the end, provide:
+- Project structure.
+- Implemented features.
+- Technologies used.
+- Build and test results.
+- Local run instructions.
+- Deployment instructions.
+- Remaining configuration items.
+
+## FINAL PRODUCT VISION
+
+Build a premium, modern, interactive portfolio that communicates:
+
+**"Vishnu doesn't just know technologies. He builds software, understands how systems work, and can demonstrate what he has developed."**
+
+The portfolio should give recruiters a reason to spend more time exploring his projects and a clear reason to contact him for software engineering or cloud engineering opportunities.
+
+Make it visually impressive, technically credible, fast, accessible, responsive, secure, and ready for real-world deployment.
